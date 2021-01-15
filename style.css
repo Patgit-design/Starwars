@@ -36,7 +36,7 @@ body {
 	position: relative;
 	top: 9999px;
 	transform-origin: 50% 100%;
-	animation: crawl 60s linear infinite;
+	animation: crawl 90s linear infinite;
   }
   
   .crawl > .title {
@@ -47,6 +47,7 @@ body {
   .crawl > .title h1 {
 	margin: 0 0 100px;
 	text-transform: uppercase;
+	color: rgb(101,192, 206);
   }
   
   @keyframes crawl {
@@ -58,4 +59,7 @@ body {
 	  top: -6000px;
 	  transform: rotateX(25deg) translateZ(-2500px);
 	}
+  }
+  audio{
+	  text-indent:-3000px;
   }
