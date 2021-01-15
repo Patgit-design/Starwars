@@ -57,5 +57,10 @@ body {
 	100% { 
 	  top: -6000px;
 	  transform: rotateX(25deg) translateZ(-2500px);
-	}
-  }
+	}}
+    .logo {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		float: left;	
+    }
