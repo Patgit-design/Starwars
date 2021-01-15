@@ -1,0 +1,35 @@
+
+
+body {
+    width: 100%;
+    height: 100%;
+    background: black;
+    margin: 0;
+    overflow: hidden; /* Evite la scrollbar */
+  	padding-top: 20%;
+    /* Center les éléments */
+    /* display: flex; */
+    /* align-items: center;
+	justify-content: center; */
+	text-align: center;
+}
+
+.a-long-time-ago {
+    /* cosmétique */
+    font-size: 32px;
+    color: rgb(253,222,46);
+    Animation: Apparition et disparition progressive
+    opacity: 0;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-name: a-long-time-ago;
+	animation-timing-function: ease-out;
+	
+} 
+
+@keyframes a-long-time-ago {
+    0%   { opacity: 0; }
+    20%  { opacity: 1; }
+    80%  { opacity: 1; }
+    100% { opacity: 0; }
+}
